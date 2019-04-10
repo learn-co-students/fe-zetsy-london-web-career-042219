@@ -18,3 +18,16 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h2{
+  color: ccc;
+}
+
+[class*="col"]{
+  width: 20%;
+  background: red;
+  padding: auto;
+}
+
+
+
