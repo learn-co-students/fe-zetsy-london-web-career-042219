@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,51 @@ body {
 }
 
 /* Write all remaining styles here */
+section {
+  /* font-size: 11pt; */
+}
+
+ h1 {
+  font-family: Baskerville, serif;
+	font-weight: lighter;
+	font-size: 5em;
+	line-height: 1.5em;
+	color: #98ada6;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 5px;
+}
+
+ h1:hover {
+  color: #6f7f7a;
+}
+
+ header img {
+  border: 5px solid #98ada6;
+}
+
+ h2 {
+  font-size: 2em;
+  color: #6f7f7a;
+}
+
+ p {
+  font-size: 1em;
+  /* line-height: 1.2em; */
+  color: #555;
+}
+
+ a img {
+  border: 5px solid #ccc;
+  padding: 1px;
+}
+
+ a:hover img {
+  border-color: #6f7f7a;
+}
+
+ footer {
+  text-align: right;
+  font-size: 0.8em;
+  color: #555;
+  margin: 20px 0;
+} 
